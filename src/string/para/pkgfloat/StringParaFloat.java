@@ -5,7 +5,7 @@
 package string.para.pkgfloat;
 
 /**
- *
+ * 
  * @author Marcos
  */
 
@@ -16,18 +16,18 @@ public class StringParaFloat {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
         String str = "420.22";
-        
-        //primeiro metodo conversão
-        
+
+        // primeiro metodo conversão
+
         float f = Float.valueOf(str);
-        
-        //segundo metodo conversão
-        //float fsecond = Float.parseFloat(str);
-        
-        System.out.println("\n convertendo o valor float :"+f);
-        
+
+        // segundo metodo conversão
+        // float fsecond = Float.parseFloat(str);
+
+        System.out.println("\n convertendo o valor float :" + f);
+
     }
-    
+
 }
